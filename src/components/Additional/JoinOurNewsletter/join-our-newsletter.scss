@@ -1,0 +1,36 @@
+.join-our-newsletter {
+   height: 130px;
+   width: 100%;
+   background-color: #131313;
+   border-radius: 10px;
+   padding: 14px;
+   .join-our-newsletter-title {
+      color: white;
+      margin-bottom: 20px;
+   }
+   .join-our-newsletter-input {
+      margin-bottom: 10px;
+      div {
+         padding: 0;
+      }
+      input {
+         padding: 12px;
+         border-radius: 4px 0 0 4px;
+         background-color: #1e1e1e;
+         color: white;
+         font-weight: 400;
+         font-size: 11px;
+      }
+      .join-our-newsletter-button {
+         color: white;
+         font-size: 12px;
+         font-weight: 500;
+         padding: 10px 20px;
+         border-radius: 0 4px 4px 0;
+      }
+   }
+   .join-our-newsletter-description {
+      color: white;
+      opacity: 0.5;
+   }
+}

@@ -1,0 +1,34 @@
+.text-field {
+   .MuiInputBase-root-MuiInput-root {
+      &:hover {
+         border: none !important;
+      }
+   }
+   .Mui-focused {
+      color: black;
+   }
+   .MuiInput-input {
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+         -webkit-appearance: "none";
+         appearance: none;
+      }
+   }
+   & .MuiInput-underline:after {
+      border-bottom-color: black;
+   }
+   & label {
+      color: #8d8d8d;
+      &.Mui-focused {
+         color: black;
+      }
+   }
+   & .MuiOutlinedInput-root {
+      &:hover fieldset {
+         border-color: rgba(white, 0.2);
+      }
+      &.Mui-focused fieldset {
+         border: 1px solid rgba(white, 0.3);
+      }
+   }
+}

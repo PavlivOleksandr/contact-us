@@ -1,0 +1,24 @@
+.form-block {
+   transition: all .5s ease;
+   .radio-wrapper {
+      .radio-block-title {
+         padding-bottom: 10px;
+      }
+      .radio-control {
+         span {
+            font-size: 12px;
+            font-weight: 400;
+         }
+      }
+   }
+   .button-block {
+      margin-top: 40px;
+      flex-direction: column;
+      .letter-send-wrapper {
+         margin-right: 50px;
+         .letter-send {
+            width: 100%;
+         }
+      }
+   }
+}

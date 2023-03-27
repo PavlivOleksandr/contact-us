@@ -1,0 +1,24 @@
+.footer-content {
+   width: 100%;
+   padding: 30px 50px;
+   .footer-title {
+      text-align: center;
+      color: white;
+      border-bottom: 1px solid white;
+   }
+   .footer-reach-us-title {
+      color: white;
+      white-space: nowrap;
+   }
+   .footer-contact-info-item {
+      margin-bottom: 20px;
+      display: flex;
+      svg {
+         color: white !important;
+         padding-top: 4px;
+      }
+      .info {
+         color: white;
+      }
+   }
+}
